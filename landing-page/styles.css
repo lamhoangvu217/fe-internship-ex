@@ -1,0 +1,29 @@
+/* Variables */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Block */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  /* Element */
+}
+.navbar__menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.navbar__item {
+  margin-right: 1em;
+}
+.navbar__item--active .menu__link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.navbar__link {
+  color: #fff;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */

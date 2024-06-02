@@ -1,0 +1,38 @@
+/* Variables */
+$background-color: #333;
+$text-color: #fff;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Block */
+.navbar {
+  background-color: $background-color;
+  color: $text-color;
+
+  /* Element */
+  &__menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  &__item {
+    margin-right: 1em;
+
+    &--active {
+      .menu__link {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__link {
+    color: $text-color;
+    text-decoration: none;
+  }
+}
