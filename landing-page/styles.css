@@ -6,8 +6,13 @@
 
 /* Block */
 .navbar {
-  background-color: #333;
-  color: #fff;
+  background-color: #F8F9FF;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 20px 50px;
+  width: Fill(1280px) px;
+  height: Hug 100px px;
   /* Element */
 }
 .navbar__menu {
@@ -15,15 +20,210 @@
   padding: 0;
   margin: 0;
   display: flex;
+  justify-content: center;
+  width: Hug 559px px;
+  height: Hug 60px px;
 }
-.navbar__item {
-  margin-right: 1em;
+.navbar__logo {
+  border: 0px solid;
+  padding: 16px 50px 16px 50px;
+  width: 141px;
+  height: 27px;
+  text-align: center;
+  size: 21px;
 }
-.navbar__item--active .menu__link {
-  font-weight: bold;
-  text-decoration: underline;
+.navbar__contact {
+  border: 0px solid;
+  padding: 16px 50px 16px 50px;
+  background: none;
+  color: #009379;
+  width: 202px;
+  height: 60px;
+  text-align: start;
 }
-.navbar__link {
-  color: #fff;
-  text-decoration: none;
+.navbar__handg {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.navbar__home {
+  border: 0px solid;
+  padding: 16px 50px 16px 50px;
+  border-radius: 20px;
+  background: #E5F4F2;
+  color: #009379;
+  width: 202px;
+  height: 60px;
+}
+.navbar__get {
+  border: 0px solid;
+  padding: 16px 50px 16px 50px;
+  border-radius: 20px;
+  background: #009379;
+  color: #E5F4F2;
+  width: 202px;
+  height: 60px;
+}
+
+.hero {
+  width: Fixed 1280px px;
+  height: Hug 690px px;
+  padding: 120px 55px 120px 55px;
+  gap: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero__header {
+  display: flex;
+  flex-direction: column;
+  width: Hug 648px px;
+  height: Hug 358px px;
+  gap: 40px;
+  padding-top: 35px;
+}
+.hero__create {
+  font-size: 67px;
+  color: #2D2D2D;
+}
+.hero__build {
+  font-size: 21px;
+}
+.hero__button {
+  display: flex;
+  justify-content: start;
+  width: Hug 441px px;
+  height: Hug 60px px;
+  gap: 18px;
+}
+.hero__button1 {
+  border: 0px solid;
+  color: #FFFFFF;
+  width: Hug 221px px;
+  height: Fixed 60px px;
+  padding: 16px 50px 16px 50px;
+  border-radius: 20px;
+  background: #009379;
+}
+.hero__button2 {
+  border: 1px solid;
+  color: #009379;
+  width: Hug 202px px;
+  height: Fixed 60px px;
+  padding: 16px 50px 16px 50px;
+  border-radius: 20px;
+  background: #FFFFFF;
+}
+.hero__img {
+  width: 450px;
+  height: 450px;
+}
+
+.client {
+  width: Fixed 1280px px;
+  height: Hug 270.32px px;
+  padding: 60px 55px 60px 55px;
+  gap: 10px;
+  border: 1px 0px 1px 0px;
+}
+.client__logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features {
+  width: Fill 1, 170px px;
+  height: Hug 93px px;
+  gap: 20px;
+  opacity: 0px;
+}
+.features__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.features__text1 {
+  width: 167px;
+  height: 49px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 38px;
+}
+.features__text2 {
+  width: 1170px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 16px;
+  text-align: center;
+}
+.features__box {
+  display: flex;
+  justify-content: space-between;
+  width: Fill 1, 170px px;
+  height: Hug 384px px;
+  gap: 30px;
+  opacity: 0px;
+  padding-top: 30px;
+}
+.features__box1 {
+  width: Fixed 370px px;
+  height: Fill 384px px;
+  padding: 40px 30px 40px 30px;
+  gap: 0px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #E5F4F2;
+  background: #FFFFFF;
+}
+.features__icon1 {
+  display: flex;
+  justify-content: center;
+}
+.features h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+.features__box2 {
+  width: Fixed 370px px;
+  height: Fill 384px px;
+  padding: 40px 30px 40px 30px;
+  gap: 0px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #E5F4F2;
+  background: #FFFFFF;
+}
+.features__icon2 {
+  display: flex;
+  justify-content: center;
+}
+.features h4 {
+  text-align: center;
+}
+.features__box3 {
+  width: Fixed 370px px;
+  height: Hug 384px px;
+  padding: 40px 30px 40px 30px;
+  gap: 30px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #E5F4F2;
+  background: #FFFFFF;
+}
+.features__icon3 {
+  display: flex;
+  justify-content: center;
+}
+.features h5 {
+  text-align: center;
+}
+.features__more {
+  color: #009379;
+  text-align: center;
+  padding-top: 20px;
+}
+.features__p {
+  text-align: center;
+  padding-top: 20px;
 }/*# sourceMappingURL=styles.css.map */
