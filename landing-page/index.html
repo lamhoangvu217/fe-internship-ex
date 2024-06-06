@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page App</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar">
@@ -17,19 +20,23 @@
         </div>
       </div>
     </nav>
-    <nav class="hero">
+    <div class="hero">
       <div class="hero__header">
-        <div class="hero__create"><b>Create Engaging <br> Landing Pages</b></div>
-          <div class="hero__build"><p>Build beautifull landing pages in record time with <a href="" style="text-decoration: none;">Anima</a>`s Landing <br> Page UI kit for Figma. No code required! </p></div>
-          <div class="hero__button">
-              <div class="hero__button1">Get started</div>
-              <div class="hero__button2">Home it works</div>
-          </div>
+        <div class="hero__create">
+          <b>Create Engaging <br> Landing Pages</b>
         </div>
-        <div class="hero__img">
-          <img src="./img/Visuals.png" alt="ảnh hihi">
+        <div class="hero__build">
+          <p>Build beautifull landing pages in record time with <a href="" style="text-decoration: none;">Anima</a>`s Landing <br> Page UI kit for Figma. No code required! </p>
         </div>
-    </nav>
+        <div class="hero__button">
+          <div class="hero__button1">Get started</div>
+          <div class="hero__button2">Home it works</div>
+        </div>
+      </div>
+      <div class="hero__img">
+        <img src="./img/Visuals.png" alt="ảnh hihi">
+      </div>
+    </div>
     <nav class="client">
       <div class="client__logo">
         <img src="./img/_Client logo.png" alt="">
@@ -45,25 +52,164 @@
         <h2 class="features__text1">Features</h2>
         <div class="features__text2">These are just a few features you`ll get using Anima Landing Page Ui Kit</div>
       </div>
-      <div class="features__box">
-        <div class="features__box1">
-          <div class="features__icon1"><img src="./img/Icon.svg" alt=""></div>
-          <h3>Fast building</h3>
-          <p class="features__p">Tailor Anima's Landing Page UI Kit to your unique style and brand with customisable components, in no time!</p>
-          <div class="features__more">Learn More</div>
+      <div class="features__wrapper">
+        <div class="features__box">
+          <div class="features__box1">
+            <div class="features__icon1"><img src="./img/Icon.svg" alt=""></div>
+            <h3>Fast building</h3>
+            <p class="features__p">Tailor Anima's Landing Page UI Kit to your unique style and brand with customisable components, in no time!</p>
+            <div class="features__more">Learn More</div>
+          </div>
+          <div class="features__box2">
+            <div class="features__icon2"><img src="./img/Icon (1).svg" alt=""></div>
+            <h4>Responsive Design</h4>
+            <p class="features__p">No need to worry about screen size. Anima's Landing Page UI Kit adapts to any screen size, from desktop to mobile.</p>
+            <div class="features__more">Learn More</div>
+          </div>
+          <div class="features__box3">
+            <div class="features__icon3"><img src="./img/Icon (2).svg" alt=""></div>
+            <h5>No Code Needed</h5>
+            <p class="features__p">Zero coding skills required, Anima's Landing Page UI Kit empowers you to create stunning landing pages with ease.</p>
+            <div class="features__more">Learn More</div>
+          </div>
         </div>
-        <div class="features__box2">
-          <div class="features__icon2"><img src="./img/Icon (1).svg" alt=""></div>
-          <h4>Responsive Design</h4>
-          <p class="features__p">No need to worry about screen size. Anima's Landing Page UI Kit adapts to any screen size, from desktop to mobile.</p>
-          <div class="features__more">Learn More</div>
+      </div>
+      
+    </nav>
+    <nav class="Metrics">
+      <div class="Metrics__text">
+        <h6 class="Metrics__text1">Our Metrics Tell the Story</h6>
+        <div class="Metrics__text2">Our metrics component gives you the inside scoop on your success and helps you stay on top of your game in style.</div>
+      </div>
+      <div class="Metrics__box">
+          <div class="Metrics__box1">
+            <div><b><p style="font-size: 38px;" >10k+</p></b></div>
+            <p style="font-size: 16px;">Website launched</p>
+          </div>
+          <div class="Metrics__box2">
+            <div><b><p style="font-size: 38px;">931k+</p></b></div>
+            <p style="font-size: 16px;">Projects created with Anima</p>
+          </div>
+          <div class="Metrics__box3">
+            <div><b><p style="font-size: 38px;">240k+</p></b></div>
+            <p style="font-size: 16px;">New users joined Anima</p>
+          </div>
+          <div class="Metrics__box4">
+            <div><b><p style="font-size: 38px;">12k+</p></b></div>
+            <p style="font-size: 16px;">Teams used Anima</p>
+          </div>
+      </div>
+    </nav>
+    <nav class="highlighted">
+      <div class="highlighted__img">
+        <img src="./img/Visuals(1).png" alt="ảnh hihi">
+      </div>
+      <div class="highlighted__header">
+        <div class="highlighted__get"><b>Get Landing Page UI Kit <br>Today</b></div>
+          <div class="highlighted__break"><p>Break the Figma limits and explore the endless possibilities with Anima </p></div>
+          <div class="highlighted__button">
+              <div class="highlighted__button1">
+                <span>
+                  Get started ->
+                </span>
+              </div>
+          </div>
         </div>
-        <div class="features__box3">
-          <div class="features__icon3"><img src="./img/Icon (2).svg" alt=""></div>
-          <h5>No Code Needed</h5>
-          <p class="features__p">Zero coding skills required, Anima's Landing Page UI Kit empowers you to create stunning landing pages with ease.</p>
-          <div class="features__more">Learn More</div>
+    </nav>
+    <nav class="information">
+      <div class="information__text">
+        <p class="information__text1"><b>Real Stories from Satisfied Customers</b></p>
+        <div class="information__text2">See how our landing page ui kit is making an impact.</div>
+      </div>
+      <div class="information__box">
+        <div class="information__box1">
+          <img src="./img/Photo.svg" alt="" width="56px" height="56px">
+          <p class="information__name"><b>Sarah K.</b></p>
+          <p class="information__job">UX Designer @Brello</p>
+          <p class="information__content">"I was looking for a way to streamline my design process and the Anima’s Landing Page UI Kit was a lifesaver! The intuitive design and ease of customisation have saved me hours of time and effort. Highly recommend!"</p>
+          <div class="imformation__star" ><img src="./img/Star Rating.svg" alt=""></div>
         </div>
+        <div class="information__box2">
+          <img src="./img/Photo (1).svg" alt="" width="56px" height="56px">
+          <p class="information__name"><b>Michael L.</b></p>
+          <p class="information__job">Creative Director @Yo</p>
+          <p class="information__content">“The Landing Page UI Kit has been a game changer for my agency. The pre-designed components and templates have helped us deliver projects faster and with more consistency. Great job!"</p>
+          <div class="imformation__star" ><img src="./img/Star Rating (1).svg" alt=""></div>
+        </div>
+        <div class="information__box3">
+          <img src="./img/Photo (2).svg" alt="" width="56px" height="56px">
+          <p class="information__name"><b>Lauren M.</b></p>
+          <p class="information__job">UI Designer @Boo</p>
+          <p class="information__content">"Anima’s Landing Page UI Kit has become a staple in my design toolkit. Whether I'm working on a new project or need to make updates to an existing one, this kit has everything I need to get the job done quickly and efficiently."</p>
+          <div class="imformation__star" ><img src="./img/Star Rating.svg" alt=""></div>
+        </div>
+      </div>
+    </nav>
+    <nav class="Pricing">
+      <div class="Pricing__text">
+        <p class="Pricing__text1"><b>Pick Your Perfect Plan</b></p>
+        <p class="Pricing__text2">Find the perfect plan for your business with our flexible pricing options.</p>
+      </div>
+      <div class="Pricing__box">
+        <div class="Pricing__box1">
+          <p>Free</p>
+          <p><b style="font-size: 50px;">$0</b> / month</p>
+          <p>Best for Small Teams or individuals.</p>
+          <div class="Pricing__box1iandt">
+            <img src="./img/Check.svg" alt="" width="20px" height="20px">
+            <p class="Pricing__box1text"><b>Write feature details here</b></p>
+          </div>
+          <div class="Pricing__box1iandt">
+            <img src="./img/Check.svg" alt="" width="20px" height="20px">
+            <p class="Pricing__box1text"><b>Write feature details here</b></p>
+          </div>
+          <div class="Pricing__box1iandt">
+            <img src="./img/Check.svg" alt="" width="20px" height="20px">
+            <p class="Pricing__box1text"><b>Write feature details here</b></p>
+          </div>
+          <button class="Pricing__button1"><b>Get started -></b></button>
+        </div>
+        <div class="Pricing__box2">
+          <p>Professional</p>
+          <p><b style="font-size: 50px;">$19</b> / month</p>
+          <p>Ideal for Growing Companies.</p>
+          <div class="Pricing__box2iandt">
+            <img src="./img/Check.svg" alt="" width="20px" height="20px">
+            <p class="Pricing__box2text"><b>Write feature details here</b></p>
+          </div>
+          <div class="Pricing__box2iandt">
+            <img src="./img/Check.svg" alt="" width="20px" height="20px">
+            <p class="Pricing__box2text"><b>Write feature details here</b></p>
+          </div>
+          <div class="Pricing__box2iandt">
+            <img src="./img/Check.svg" alt="" width="20px" height="20px">
+            <p class="Pricing__box2text"><b>Write feature details here</b></p>
+          </div>
+          <button class="Pricing__button2"><b>Get started -></b></button>
+        </div>
+        <div class="Pricing__box3">
+          <p>Enterprise</p>
+          <p><b style="font-size: 50px;">$49</b> / month</p>
+          <p>Ultimate for Enterprise Solutions.</p>
+          <div class="Pricing__box3iandt">
+            <img src="./img/Check.svg" alt="" width="20px" height="20px">
+            <p class="Pricing__box3text"><b>Write feature details here</b></p>
+          </div>
+          <div class="Pricing__box3iandt">
+            <img src="./img/Check.svg" alt="" width="20px" height="20px">
+            <p class="Pricing__box3text"><b>Write feature details here</b></p>
+          </div>
+          <div class="Pricing__box3iandt">
+            <img src="./img/Check.svg" alt="" width="20px" height="20px">
+            <p class="Pricing__box3text"><b>Write feature details here</b></p>
+          </div>
+          <button class="Pricing__button3"><b>Get started -></b></button>
+        </div>
+      </div>
+    </nav>
+    <nav class="Team">
+      <div class="Team__text">
+        
       </div>
     </nav>
   </body>
