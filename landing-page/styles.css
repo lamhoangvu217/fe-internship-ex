@@ -651,4 +651,88 @@ html {
   background-color: #F2BFAF;
   border: 0px solid;
   border-radius: 0px 20px 20px 0px;
+}
+
+.Contactform {
+  padding: 60px 55px 60px 55px;
+  gap: 60px;
+  background-color: #F8F9FF;
+}
+.Contactform__header {
+  border: 1px solid #E5F4F2;
+  border-radius: 20px;
+  padding: 60px;
+  gap: 60px;
+  background-color: #FFFFFF;
+}
+.Contactform__header__text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.Contactform__info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.Contactform__infox {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.Contactform__info1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Contactform__phone {
+  display: flex;
+}
+.Contactform__gmail {
+  display: flex;
+}
+.Contactform__info2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Contactform__icon {
+  display: flex;
+  justify-content: space-between;
+  width: 176px;
+  gap: 16px;
+}
+.Contactform__infoy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Contactform__name {
+  display: flex;
+  justify-content: start;
+  width: 465px;
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+  padding: 8px 20px 8px 20px;
+  gap: 12px;
+}
+.Contactform__email {
+  display: flex;
+  justify-content: start;
+  width: 465px;
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+  padding: 8px 20px 8px 20px;
+  gap: 12px;
+}
+.Contactform__submit {
+  border: 0px solid;
+  border-radius: 20px;
+  width: 159px;
+  padding: 16px 50px 16px 50px;
+  gap: 8px;
+  background-color: #009379;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

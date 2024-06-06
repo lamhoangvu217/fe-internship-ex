@@ -749,3 +749,101 @@ h5 {
     border-radius: 0px 20px 20px 0px;
   }
 }
+
+.Contactform{
+  padding: 60px 55px 60px 55px;
+  gap: 60px;
+  background-color: #F8F9FF;
+
+  &__header {
+    border: 1px solid #E5F4F2;
+    border-radius: 20px;
+    padding: 60px;
+    gap: 60px;
+    background-color: #FFFFFF;
+  }
+
+  &__header__text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  
+  &__infox {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__phone {
+    display: flex;
+  }
+
+  &__gmail {
+    display: flex;
+  }
+
+  &__info2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__icon {
+    display: flex;
+    justify-content: space-between;
+    width: 176px;
+    gap: 16px;
+  }
+
+  &__infoy {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__name {
+    display: flex;
+    justify-content: start;
+    width: 465px;
+    border: 1px solid #D8D8D8;
+    border-radius: 20px;
+    padding: 8px 20px 8px 20px;
+    gap: 12px;
+  }
+
+  &__email {
+    display: flex;
+    justify-content: start;
+    width: 465px;
+    border: 1px solid #D8D8D8;
+    border-radius: 20px;
+    padding: 8px 20px 8px 20px;
+    gap: 12px;
+  }
+
+  &__submit {
+    border: 0px solid;
+    border-radius: 20px;
+    width: 159px;
+    padding: 16px 50px 16px 50px;
+    gap: 8px;
+    background-color: #009379;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+
+}
