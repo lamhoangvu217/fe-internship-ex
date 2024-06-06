@@ -23,7 +23,7 @@ html {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 559px;
   height: 60px;
 }
@@ -34,6 +34,9 @@ html {
   height: 27px;
   text-align: center;
   size: 21px;
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
 }
 .navbar__contact {
   border: 0px solid;
@@ -66,6 +69,8 @@ html {
   color: #E5F4F2;
   width: 202px;
   height: 60px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero {
@@ -101,7 +106,6 @@ html {
   border: 0px solid;
   color: #FFFFFF;
   width: 230px;
-  height: 30px;
   padding: 16px 50px 16px 50px;
   border-radius: 20px;
   background: #009379;
@@ -110,7 +114,6 @@ html {
   border: 1px solid;
   color: #009379;
   width: 240px;
-  height: 30px;
   padding: 16px 50px 16px 50px;
   border-radius: 20px;
   background: #FFFFFF;
@@ -135,7 +138,6 @@ html {
   gap: 20px;
   opacity: 0px;
   background-color: #F8F9FF;
-  margin-left: 30px;
 }
 .features__text {
   display: flex;
@@ -238,7 +240,6 @@ html {
   gap: 60px;
   opacity: 0px;
   background: #F8F9FF;
-  margin-left: 30px;
 }
 .Metrics__text {
   width: 1170px;
@@ -311,11 +312,15 @@ html {
   text-align: center;
 }
 
+.Metricss {
+  display: flex;
+  justify-content: center;
+}
+
 .highlighted {
   background-color: #F8F9FF;
   display: flex;
-  justify-content: space-between;
-  margin-left: 30px;
+  justify-content: space-around;
 }
 .highlighted__header {
   display: flex;
@@ -351,7 +356,6 @@ html {
   padding: 120px 55px 120px 55px;
   gap: 60px;
   background-color: #F8F9FF;
-  margin-left: 30px;
 }
 .information__text {
   display: flex;
@@ -430,11 +434,15 @@ html {
   text-align: center;
 }
 
+.informationn {
+  display: flex;
+  justify-content: center;
+}
+
 .Pricing {
   padding: 120px 55px 120px 55px;
   gap: 60px;
   background-color: #F8F9FF;
-  margin-left: -20px;
 }
 .Pricing__text {
   display: flex;
@@ -447,6 +455,10 @@ html {
 }
 .Pricing__text2 {
   font-size: 16px;
+}
+.Pricing__boxx {
+  display: flex;
+  justify-content: center;
 }
 .Pricing__box {
   width: 1280px;
@@ -543,4 +555,100 @@ html {
   text-align: center;
   margin-top: 50px;
   margin-left: 18px;
+}
+
+.Team {
+  padding: 120px 55px 120px 55px;
+  gap: 60px;
+  background-color: #F8F9FF;
+}
+.Team__text {
+  display: flex;
+  flex-direction: column;
+}
+.Team__text1 {
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.Team__text2 {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.Team__box {
+  display: flex;
+  justify-content: space-between;
+}
+.Team__box1, .Team__box2, .Team__box3 {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+.Team__name {
+  font-size: 21px;
+  text-align: center;
+}
+.Team__job {
+  font-size: 16px;
+  text-align: center;
+  color: #2D2D2D;
+}
+.Team__border {
+  width: 370px;
+  height: 79px;
+  margin-top: 10px;
+  border: 0px 0px 1px 0px;
+  border-bottom: 1px solid #d8d8d8;
+}
+.Team__icon {
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Desktop {
+  padding: 60px 55px 60px 55px;
+  background-color: #F8F9FF;
+  display: flex;
+  justify-content: center;
+}
+.Desktop__box {
+  padding: 60px;
+  gap: 40px;
+  background-color: #F2BFAF;
+  border: 0px solid;
+  border-radius: 20px 0px 0px 20px;
+}
+.Desktop__text {
+  width: 466px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.Desktop__text1 {
+  width: 466px;
+  font-size: 50px;
+  color: #2D2D2D;
+}
+.Desktop__text2 {
+  width: 466px;
+  font-size: 21px;
+}
+.Desktop__button {
+  border: 0px solid;
+  border-radius: 20px;
+  padding: 16px 50px 16px 50px;
+  gap: 8px;
+  background-color: #009379;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 16px;
+  width: 221px;
+}
+.Desktop__img {
+  background-color: #F2BFAF;
+  border: 0px solid;
+  border-radius: 0px 20px 20px 0px;
 }/*# sourceMappingURL=styles.css.map */
