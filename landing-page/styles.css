@@ -167,6 +167,10 @@ html {
   opacity: 0px;
   padding-top: 30px;
 }
+.features__wrapper {
+  display: flex;
+  justify-content: center;
+}
 .features__box1 {
   width: 370px;
   height: 384px;
