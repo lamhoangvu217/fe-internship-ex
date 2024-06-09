@@ -13,10 +13,13 @@ html {
 .navbar {
   background-color: #F8F9FF;
   color: black;
-  display: flex;
-  justify-content: space-between;
   padding: 20px 50px 20px 50px;
   /* Element */
+}
+.navbar__space {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
 }
 .navbar__menu {
   list-style: none;
@@ -70,7 +73,8 @@ html {
   width: 202px;
   height: 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero {
@@ -559,53 +563,50 @@ html {
 
 .Team {
   padding: 120px 55px 120px 55px;
-  gap: 60px;
   background-color: #F8F9FF;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
 }
 .Team__text {
-  display: flex;
-  flex-direction: column;
-}
-.Team__text1 {
-  font-size: 38px;
   text-align: center;
-  margin-bottom: 10px;
-}
-.Team__text2 {
-  font-size: 16px;
-  text-align: center;
-  margin-bottom: 30px;
 }
 .Team__box {
   display: flex;
   justify-content: space-between;
+  text-align: center;
+  background-color: #F8F9FF;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
 }
 .Team__box1, .Team__box2, .Team__box3 {
+  display: flex;
+  flex-direction: column;
   background-color: #FFFFFF;
+  row-gap: 6px;
+  border: 0px solid;
   border-radius: 20px;
 }
-.Team__name {
-  font-size: 21px;
-  text-align: center;
-}
-.Team__job {
-  font-size: 16px;
-  text-align: center;
-  color: #2D2D2D;
-}
-.Team__border {
+.Team__boxa, .Team__boxb, .Team__boxc {
   width: 370px;
   height: 79px;
-  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Team__imgg {
+  border: 0px solid;
+  border-radius: 20px;
+}
+.Team__centerr {
+  width: 370px;
+  height: 79px;
   border: 0px 0px 1px 0px;
   border-bottom: 1px solid #d8d8d8;
-}
-.Team__icon {
-  gap: 16px;
+  gap: 6px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  margin-top: 20px;
 }
 
 .Desktop {
@@ -709,26 +710,35 @@ html {
 }
 .Contactform__name {
   display: flex;
-  justify-content: start;
   width: 465px;
+  height: 60px;
   border: 1px solid #D8D8D8;
   border-radius: 20px;
   padding: 8px 20px 8px 20px;
-  gap: 12px;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
 .Contactform__email {
   display: flex;
-  justify-content: start;
+  align-items: center;
   width: 465px;
+  height: 60px;
   border: 1px solid #D8D8D8;
   border-radius: 20px;
   padding: 8px 20px 8px 20px;
-  gap: 12px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.Contactform__textbox {
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
 }
 .Contactform__submit {
   border: 0px solid;
   border-radius: 20px;
   width: 159px;
+  height: 60px;
   padding: 16px 50px 16px 50px;
   gap: 8px;
   background-color: #009379;
