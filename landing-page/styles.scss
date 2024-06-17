@@ -95,11 +95,14 @@ html{
   }
 
   &__button1 {
+    display: flex;
+    align-items: center;
     border: 0px solid;
     color: #FFFFFF;
     padding: 18px 50px;
     border-radius: 20px;
     background: #009379;
+    gap: 8px;
   }
 
   &__button2 {
@@ -109,6 +112,7 @@ html{
     background: #FFFFFF;
     padding: 18px 50px;
   }
+
 
 }
 
@@ -229,8 +233,11 @@ h5 {
 
 &__more {
   color: #009379;
-  text-align: center;
   padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 
 &__p {
@@ -307,13 +314,19 @@ h5 {
     flex-direction: column;
     gap: 20px;
   }
+
   &__get {
     font-size: 50px;
     font-family: "Poppins", sans-serif;
   }
+
   &__break {
     font-size: 21px;
     font-family: "Mulish", sans-serif;
+  }
+
+  &__button {
+    padding-right: 349px;
   }
 
   &__button1 {
@@ -322,10 +335,11 @@ h5 {
     color: #FFFFFF;
     border-radius: 20px;
     background: #009379;
-    text-align: center;
-    padding: 18px 0px;
+    padding: 18px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
   }
-
 }
 
 .information{
@@ -455,6 +469,7 @@ h5 {
     display: flex;
     justify-content: start;
     padding-top: 16px;
+    gap: 10px;
   }
 
   &__button1 {
@@ -464,6 +479,11 @@ h5 {
     color: #009379;
     text-align: center;
     padding: 18px 108.5px;
+
+    p {
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+    }
   }
 
   &__box2 {
@@ -479,6 +499,7 @@ h5 {
     display: flex;
     justify-content: start;
     padding-top: 16px;
+    gap: 10px;
   }
 
   &__button2 {
@@ -488,6 +509,11 @@ h5 {
     color: #009379;
     text-align: center;
     padding: 18px 108.5px;
+
+    p {
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+    }
   }
 
   &__box3 {
@@ -504,15 +530,24 @@ h5 {
     display: flex;
     justify-content: start;
     padding-top: 16px;
+    gap: 10px;
   }
 
   &__button3 {
+    display: flex;
+    gap: 8px;
     border: 0px solid;
     border-radius: 20px;
     background: #FFFFFF;
     color: #009379;
-    text-align: center;
-    padding: 18px 108.5px;
+    padding: 18px 94px;
+    align-items: center;
+
+    p {
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+    }
+
   }
 
   &__box11, &__box22, &__box33 {
@@ -555,7 +590,7 @@ h5 {
   &__boxa, &__boxb, &__boxc {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 20px 121px;
   }
   
@@ -607,17 +642,18 @@ h5 {
     color: #2D2D2D;
     font-family: "Mulish", sans-serif;
   }
-
+  
   &__button {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
     border: 0px solid;
     border-radius: 20px;
     background-color: #009379;
-    text-align: center;
+    align-items: center;
     color: #FFFFFF;
     font-size: 16px;
-    p {
-      padding: 18px 50px 18px 50px;
-    }
+    padding: 18px 50px 18px 50px;
   }
 
   &__img {
@@ -704,6 +740,7 @@ h5 {
   &__textbox {
     font-size: 16px;
     font-family: "Mulish", sans-serif;
+    border: none;
   }
 
   &__submitt {

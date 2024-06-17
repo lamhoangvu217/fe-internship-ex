@@ -117,6 +117,11 @@
                 width: 100%;
             }
         }
+
+        &__button {
+            padding-right: 119px;
+            align-items: center;
+        }
     }
 
     .Metricss {
@@ -214,6 +219,11 @@
             flex-direction: column;
             row-gap: 20px;
         }
+
+        &__button3 {
+            align-items: center;
+            justify-content: center;
+        }
     }
 
     .Team {
@@ -231,6 +241,17 @@
             width: 33%;
         }
 
+        &__boxa, &__boxb, &__boxc {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        &__job {
+            font-family: "Mulish", sans-serif;
+        }
+        
         &__imgg {
             width: 100%;
         }
@@ -241,6 +262,7 @@
 
         &__text1 {
             font-size: 38px;
+            padding-bottom: 20px;
         }
 
         &__text2 {
@@ -249,9 +271,8 @@
         }
 
         &__button {
-            p {
-                padding: 18px 50px;
-            }
+            align-items: center;
+            padding: 18px 50px;
         }
 
         &__img {
@@ -261,6 +282,7 @@
             }
         }
     }
+
     .Contactform{
         padding: 50px 32px;
 
