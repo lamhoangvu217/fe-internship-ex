@@ -12,7 +12,7 @@ html {
 .navbar {
   background-color: #F8F9FF;
   color: black;
-  padding: 20px 50px;
+  padding: 34px 50px;
 }
 .navbar__space {
   display: flex;
@@ -27,6 +27,7 @@ html {
   margin-right: 50px;
   font-size: 16px;
   color: #009379;
+  font-family: "Poppins", sans-serif;
 }
 .navbar__menu-btn-2 {
   background-color: #E5F4F2;
@@ -36,6 +37,7 @@ html {
   margin-right: 20px;
   font-size: 16px;
   color: #009379;
+  font-family: "Poppins", sans-serif;
 }
 .navbar__menu-btn-3 {
   background-color: #009379;
@@ -46,6 +48,7 @@ html {
   border-radius: 20px;
   gap: 8px;
   font-size: 16px;
+  font-family: "Poppins", sans-serif;
 }
 .navbar__menu-btn-3 p {
   color: #FFFFFF;
@@ -55,7 +58,7 @@ html {
   background: #F8F9FF;
   display: flex;
   justify-content: space-between;
-  padding: 0px 55px;
+  padding: 120px 55px;
 }
 .hero__handi {
   display: flex;
@@ -65,6 +68,7 @@ html {
 .hero__header {
   display: flex;
   flex-direction: column;
+  padding-right: 72px;
 }
 .hero__create {
   font-size: 67px;
@@ -73,12 +77,14 @@ html {
 .hero__build {
   font-size: 20px;
   padding: 20px 0px 40px 0px;
+  font-family: "Mulish", sans-serif;
 }
 .hero__button {
   display: flex;
   justify-content: flex-start;
   -moz-column-gap: 20px;
        column-gap: 20px;
+  font-family: "Mulish", sans-serif;
 }
 .hero__button1 {
   border: 0px solid;
@@ -94,9 +100,6 @@ html {
   background: #FFFFFF;
   padding: 18px 50px;
 }
-.hero__img {
-  padding: 120px 55px 120px 72px;
-}
 
 .client {
   background: #F8F9FF;
@@ -105,10 +108,17 @@ html {
   display: flex;
   justify-content: space-between;
   padding: 60px 55px 60px 55px;
+  border: 1px dotted blue;
+  border-left: none;
+  border-right: none;
 }
 
 .features {
   background-color: #F8F9FF;
+}
+.features p {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
 }
 .features__text {
   display: flex;
@@ -217,6 +227,7 @@ html {
   font-size: 16px;
   text-align: center;
   padding-bottom: 60px;
+  font-family: "Mulish", sans-serif;
 }
 .Metrics__box {
   display: grid;
@@ -246,7 +257,7 @@ html {
   justify-content: center;
   align-items: center;
   gap: 60px;
-  padding: 0px 32px;
+  padding: 120px 32px;
 }
 .highlighted__header {
   display: flex;
@@ -264,6 +275,7 @@ html {
 }
 .highlighted__break {
   font-size: 21px;
+  font-family: "Mulish", sans-serif;
 }
 .highlighted__button1 {
   width: 65%;
@@ -337,6 +349,7 @@ html {
   font-size: 16px;
   text-align: center;
   padding-bottom: 30px;
+  font-family: "Mulish", sans-serif;
 }
 
 .informationn {
@@ -356,7 +369,7 @@ html {
   padding: 120px 55px 60px 55px;
 }
 .Pricing__text1 {
-  font-size: 30px;
+  font-size: 38px;
 }
 .Pricing__text2 {
   font-size: 16px;
@@ -454,7 +467,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 100px 0px 40px 0px;
+  padding: 120px 0px 40px 0px;
 }
 .Team__boxx {
   padding: 60px 55px 120px 55px;
@@ -499,7 +512,7 @@ html {
   background-color: #F8F9FF;
   display: flex;
   justify-content: center;
-  padding: 60px 55px;
+  padding: 120px 55px;
 }
 .Desktop__box {
   background-color: #F2BFAF;
@@ -519,6 +532,7 @@ html {
 .Desktop__text2 {
   font-size: 21px;
   color: #2D2D2D;
+  font-family: "Mulish", sans-serif;
 }
 .Desktop__button {
   border: 0px solid;

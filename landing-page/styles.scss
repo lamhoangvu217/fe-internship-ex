@@ -15,7 +15,7 @@ html{
 .navbar {
   background-color: $background-color;
   color: $text-color;
-  padding: 20px 50px;
+  padding: 34px 50px;
 
   &__space {
     display: flex;
@@ -31,6 +31,7 @@ html{
       margin-right: 50px;
       font-size: 16px;
       color: #009379;
+      font-family: "Poppins", sans-serif;
     }
     &-btn-2 {
       background-color: #E5F4F2;
@@ -40,6 +41,7 @@ html{
       margin-right: 20px;
       font-size: 16px;
       color: #009379;
+      font-family: "Poppins", sans-serif;
     }
     &-btn-3 {
       background-color: #009379;
@@ -50,6 +52,7 @@ html{
       border-radius: 20px;
       gap: 8px;
       font-size: 16px;
+      font-family: "Poppins", sans-serif;
       p {
         color: #FFFFFF;
       }
@@ -61,7 +64,7 @@ html{
   background: #F8F9FF;
   display: flex;
   justify-content: space-between;
-  padding: 0px 55px;
+  padding: 120px 55px;
   &__handi {
     display: flex;
     flex-direction: column;
@@ -70,6 +73,7 @@ html{
   &__header {
     display: flex;
     flex-direction: column;
+    padding-right: 72px;
   }
 
   &__create {
@@ -80,12 +84,14 @@ html{
   &__build {
     font-size: 20px;
     padding: 20px 0px 40px 0px;
+    font-family: "Mulish", sans-serif;
   }
 
   &__button {
     display: flex;
     justify-content: flex-start;
     column-gap: 20px;
+    font-family: "Mulish", sans-serif;
   }
 
   &__button1 {
@@ -104,9 +110,6 @@ html{
     padding: 18px 50px;
   }
 
-  &__img {
-    padding: 120px 55px 120px 72px;
-  }
 }
 
 .client{
@@ -116,11 +119,19 @@ html{
     display: flex;
     justify-content: space-between;
     padding: 60px 55px 60px 55px;
+    border: 1px dotted blue;
+    border-left: none;
+    border-right: none;
   }
 }
 
 .features{
   background-color: #F8F9FF;
+
+  p {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+  }
 
 &__text {
   display: flex;
@@ -247,6 +258,7 @@ h5 {
     font-size: 16px;
     text-align: center;
     padding-bottom: 60px;
+    font-family: "Mulish", sans-serif;
   }
 
   &__box {
@@ -263,6 +275,7 @@ h5 {
     border-bottom: 4px solid #F2BFAF;
     text-align: center;
     padding: 48px 16px 48px 16px;
+
   }
 
   &__boxy {
@@ -281,7 +294,7 @@ h5 {
   justify-content: center;
   align-items: center;
   gap: 60px;
-  padding: 0px 32px;
+  padding: 120px 32px;
 
   &__header {
     display: flex;
@@ -300,6 +313,7 @@ h5 {
   }
   &__break {
     font-size: 21px;
+    font-family: "Mulish", sans-serif;
   }
 
   &__button1 {
@@ -384,6 +398,7 @@ h5 {
   font-size: 16px;
   text-align: center;
   padding-bottom: 30px;
+  font-family: "Mulish", sans-serif;
 }
 
 }
@@ -405,7 +420,7 @@ h5 {
   }
 
   &__text1 {
-    font-size: 30px;
+    font-size: 38px;
   }
 
   &__text2 {
@@ -515,7 +530,7 @@ h5 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 100px 0px 40px 0px;
+    padding: 120px 0px 40px 0px;
   }
   &__boxx {
     padding: 60px 55px 120px 55px;
@@ -567,7 +582,7 @@ h5 {
   background-color: #F8F9FF;
   display: flex;
   justify-content: center;
-  padding: 60px 55px;
+  padding: 120px 55px;
 
   &__box{
     background-color: #F2BFAF;
@@ -590,6 +605,7 @@ h5 {
   &__text2 {
     font-size: 21px;
     color: #2D2D2D;
+    font-family: "Mulish", sans-serif;
   }
 
   &__button {
