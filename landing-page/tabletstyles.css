@@ -84,6 +84,10 @@
   .highlighted__img img {
     width: 100%;
   }
+  .highlighted__button {
+    padding-right: 119px;
+    align-items: center;
+  }
   .Metricss {
     padding: 0px 32px;
   }
@@ -159,6 +163,10 @@
     flex-direction: column;
     row-gap: 20px;
   }
+  .Pricing__button3 {
+    align-items: center;
+    justify-content: center;
+  }
   .Team {
     justify-content: center;
     padding: 0px 32px;
@@ -172,6 +180,15 @@
   .Team__box1, .Team__box2, .Team__box3 {
     width: 33%;
   }
+  .Team__boxa, .Team__boxb, .Team__boxc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+  .Team__job {
+    font-family: "Mulish", sans-serif;
+  }
   .Team__imgg {
     width: 100%;
   }
@@ -180,12 +197,14 @@
   }
   .Desktop__text1 {
     font-size: 38px;
+    padding-bottom: 20px;
   }
   .Desktop__text2 {
     font-size: 16px;
     font-family: "Mulish", sans-serif;
   }
-  .Desktop__button p {
+  .Desktop__button {
+    align-items: center;
     padding: 18px 50px;
   }
   .Desktop__img img {
