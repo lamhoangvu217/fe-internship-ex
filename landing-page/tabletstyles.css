@@ -1,0 +1,211 @@
+@media screen and (max-width: 1279px) {
+  body {
+    padding: 0px 18px;
+  }
+  .navbar__menu-btn-1 {
+    display: none;
+  }
+  .navbar__menu-btn-2 {
+    padding: 18px 50px;
+  }
+  .navbar__menu-btn-3 {
+    display: none;
+  }
+  .navbar__logo {
+    padding: 14px 0px 14px 30px;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 32px;
+  }
+  .hero__handi {
+    padding: 100px 0px 40px 0px;
+  }
+  .hero__button {
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    font-family: "Mulish", sans-serif;
+  }
+  .hero__button2 {
+    display: none;
+  }
+  .hero__img {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+  .client__logo {
+    padding: 40px 32px;
+  }
+  .features__wrapper {
+    justify-content: center;
+  }
+  .features__text {
+    padding: 100px 32px 40px 32px;
+  }
+  .features__text2 {
+    display: none;
+  }
+  .features__text3 {
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+  }
+  .features__box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .features__box1, .features__box2, .features__box3 {
+    padding: 0px 32px 20px 32px;
+  }
+  .features__icon1 img, .features__icon2 img, .features__icon3 img {
+    padding-top: 40px;
+  }
+  .reversetablet {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .highlighted {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .highlighted__get p {
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+  }
+  .highlighted__break {
+    font-size: 16px;
+  }
+  .highlighted__img img {
+    width: 100%;
+  }
+  .Metricss {
+    padding: 0px 32px;
+  }
+  .Metricss__box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .Metricss .Metrics__box {
+    display: none;
+  }
+  .Metricss .Metrics__text {
+    padding: 100px 32px 40px 32px;
+    font-family: "Mulish", sans-serif;
+  }
+  .Metricss .Metrics__text1 {
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+  }
+  .Metricss .Metrics__text2 {
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+  }
+  .Metricss .Metrics__boxy {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  .Metricss .Metrics__box1, .Metricss .Metrics__box3, .Metricss .Metrics__box4 {
+    border: 0px 0px 4px 0px;
+    border-radius: 20px 20px 0px 0px;
+    background: #FFFFFF;
+    border-bottom: 4px solid #F2BFAF;
+    text-align: center;
+    padding: 48px 16px 48px 16px;
+  }
+  .Metricss .Metrics__box2 {
+    border: 0px 0px 4px 0px;
+    border-radius: 20px 20px 0px 0px;
+    background: #FFFFFF;
+    border-bottom: 4px solid #F2BFAF;
+    text-align: center;
+    padding: 48px 16px 48px 16px;
+  }
+  .information__box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .information__box1, .information__box2, .information__box3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .information__content {
+    text-align: start;
+  }
+  .information__boxb {
+    text-align: start;
+  }
+  .Pricing__text1 {
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+  }
+  .Pricing__text2 {
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+  }
+  .Pricing__boxx {
+    width: 100%;
+  }
+  .Pricing__box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .Team {
+    justify-content: center;
+    padding: 0px 32px;
+  }
+  .Team__boxxx {
+    min-width: 100%;
+  }
+  .Team__box {
+    width: 100%;
+  }
+  .Team__box1, .Team__box2, .Team__box3 {
+    width: 33%;
+  }
+  .Team__imgg {
+    width: 100%;
+  }
+  .Desktop {
+    display: flex;
+  }
+  .Desktop__text1 {
+    font-size: 38px;
+  }
+  .Desktop__text2 {
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+  }
+  .Desktop__button p {
+    padding: 18px 50px;
+  }
+  .Desktop__img img {
+    width: 100%;
+    height: 100%;
+  }
+  .Contactform {
+    padding: 50px 32px;
+  }
+  .Contactform__header {
+    padding: 40px;
+  }
+  .Contactform__info {
+    display: flex;
+    flex-direction: column;
+  }
+  .Contactform__info2 {
+    padding-bottom: 40px;
+  }
+  .Contactform__text {
+    row-gap: 10px;
+  }
+}
