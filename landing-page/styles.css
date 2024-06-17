@@ -77,8 +77,9 @@ html {
 }
 .hero__button {
   display: flex;
-  justify-content: space-between;
-  width: 441px;
+  justify-content: flex-start;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 .hero__button1 {
   border: 0px solid;
@@ -124,6 +125,9 @@ html {
 .features__text2 {
   font-size: 16px;
   text-align: center;
+}
+.features__text3 {
+  display: none;
 }
 .features__box {
   display: flex;
@@ -230,6 +234,9 @@ html {
   text-align: center;
   padding: 48px 16px 48px 16px;
 }
+.Metrics__boxy {
+  display: none;
+}
 
 .Metricss {
   display: flex;
@@ -254,21 +261,22 @@ html {
 }
 .highlighted__get {
   font-size: 50px;
+  font-family: "Poppins", sans-serif;
 }
 .highlighted__break {
   font-size: 21px;
 }
 .highlighted__button1 {
-  width: 221px;
+  width: 65%;
   border: 0px solid;
   color: #FFFFFF;
   border-radius: 20px;
   background: #009379;
   text-align: center;
-  padding: 18px 50px 18px 50px;
+  padding: 18px 0px;
 }
-.highlighted__img {
-  padding: 120px 60px 120px 55px;
+.highlighted__img img {
+  padding: 120px 60px;
 }
 
 .information {
@@ -303,9 +311,6 @@ html {
   text-align: center;
   background-color: #FFFFFF;
 }
-.information__box1 img {
-  padding-bottom: 16px;
-}
 .information__box2 {
   padding: 40px 30px;
   border: 1px solid #E5F4F2;
@@ -314,9 +319,6 @@ html {
   text-align: center;
   background-color: #FFFFFF;
 }
-.information__box2 img {
-  padding-bottom: 16px;
-}
 .information__box3 {
   padding: 40px 30px;
   border: 1px solid #E5F4F2;
@@ -324,9 +326,6 @@ html {
   border-color: #FFFFFF;
   text-align: center;
   background-color: #FFFFFF;
-}
-.information__box3 img {
-  padding-bottom: 16px;
 }
 .information__name {
   font-size: 21px;
@@ -342,9 +341,6 @@ html {
   font-size: 16px;
   text-align: center;
   padding-bottom: 30px;
-}
-.information__star {
-  text-align: center;
 }
 
 .informationn {
@@ -462,8 +458,8 @@ html {
   row-gap: 20px;
   padding: 120px 55px 60px 55px;
 }
-.Team__boxxx {
-  padding: 0px 55px 120px 55px;
+.Team__boxx {
+  padding: 60px 55px 120px 55px;
 }
 .Team__box {
   display: flex;
@@ -506,7 +502,7 @@ html {
   background-color: #F8F9FF;
   display: flex;
   justify-content: center;
-  padding: 60px 55px;
+  padding: 60px 0px;
 }
 .Desktop__box {
   background-color: #F2BFAF;
@@ -559,9 +555,8 @@ html {
 }
 .Contactform__info {
   display: flex;
-  justify-content: start;
-  -moz-column-gap: 40px;
-       column-gap: 40px;
+  justify-content: space-between;
+  padding: 40px;
 }
 .Contactform__infox {
   display: flex;

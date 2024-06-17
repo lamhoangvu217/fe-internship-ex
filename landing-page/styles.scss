@@ -198,8 +198,8 @@ html{
 
   &__button {
     display: flex;
-    justify-content: space-between;
-    width: 441px;
+    justify-content: flex-start;
+    column-gap: 20px;
   }
 
   &__button1 {
@@ -252,6 +252,10 @@ html{
 &__text2 {
   font-size: 16px;
   text-align: center;
+}
+
+&__text3 {
+  display: none;
 }
 
 &__box {
@@ -376,6 +380,10 @@ h5 {
     padding: 48px 16px 48px 16px;
   }
 
+  &__boxy {
+    display: none;
+  }
+
 }
 .Metricss{
   display: flex;
@@ -401,24 +409,28 @@ h5 {
   }
   &__get {
     font-size: 50px;
+    font-family: "Poppins", sans-serif;
   }
   &__break {
     font-size: 21px;
   }
 
   &__button1 {
-    width: 221px;
+    width: 65%;
     border: 0px solid;
     color: #FFFFFF;
     border-radius: 20px;
     background: #009379;
     text-align: center;
-    padding: 18px 50px 18px 50px;
+    padding: 18px 0px;
   }
 
   &__img {
-    padding: 120px 60px 120px 55px;
-}
+    img {
+      padding: 120px 60px;
+    }
+  }
+
 }
 
 .information{
@@ -455,9 +467,6 @@ h5 {
   border-color: #FFFFFF;
   text-align: center;
   background-color: #FFFFFF;
-  img {
-    padding-bottom: 16px;
-  }
 }
 
 &__box2 {
@@ -467,9 +476,6 @@ h5 {
   border-color: #FFFFFF;
   text-align: center;
   background-color: #FFFFFF;
-  img {
-    padding-bottom: 16px;
-  }
 }
 
 &__box3 {
@@ -479,9 +485,6 @@ h5 {
   border-color: #FFFFFF;
   text-align: center;
   background-color: #FFFFFF;
-  img {
-    padding-bottom: 16px;
-  }
 }
 
 &__name {
@@ -502,9 +505,6 @@ h5 {
   padding-bottom: 30px;
 }
 
-&__star {
-  text-align: center;
-}
 }
 .informationn{
   display: flex;
@@ -627,7 +627,6 @@ h5 {
   background-color: #F8F9FF;
   display: grid;
   grid-template-columns: auto;
-
   &__text {
     text-align: center;
     display: flex;
@@ -635,9 +634,8 @@ h5 {
     row-gap: 20px;
     padding: 120px 55px 60px 55px;
   }
-  
-  &__boxxx {
-    padding: 0px 55px 120px 55px;
+  &__boxx {
+    padding: 60px 55px 120px 55px;
   }
   &__box {
     display: flex;
@@ -686,7 +684,7 @@ h5 {
   background-color: #F8F9FF;
   display: flex;
   justify-content: center;
-  padding: 60px 55px;
+  padding: 60px 0px;
 
   &__box{
     background-color: #F2BFAF;
@@ -747,8 +745,8 @@ h5 {
   }
   &__info {
     display: flex;
-    justify-content: start;
-    column-gap: 40px;
+    justify-content: space-between;
+    padding: 40px;
   }
   
   &__infox {

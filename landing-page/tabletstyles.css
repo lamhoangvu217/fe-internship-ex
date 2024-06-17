@@ -1,0 +1,215 @@
+@media screen and (max-width: 1299px) {
+  html {
+    width: 100%;
+  }
+  .navbar__menu-btn-1 {
+    display: none;
+  }
+  .navbar__menu-btn-2 {
+    padding: 18px 50px;
+  }
+  .navbar__menu-btn-3 {
+    display: none;
+  }
+  .navbar__logo {
+    padding: 14px 0px 14px 30px;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero__handi {
+    padding: 100px 32px 40px 32px;
+  }
+  .hero__button {
+    display: flex;
+    justify-content: center;
+  }
+  .hero__button2 {
+    display: none;
+  }
+  .hero__img {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+  .client__logo {
+    padding: 40px 32px;
+  }
+  .features__wrapper {
+    justify-content: center;
+  }
+  .features__text {
+    padding: 100px 32px 40px 32px;
+  }
+  .features__text2 {
+    display: none;
+  }
+  .features__text3 {
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+  }
+  .features__box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .features__box1, .features__box2, .features__box3 {
+    padding: 0px 32px 20px 32px;
+  }
+  .features__icon1 img, .features__icon2 img, .features__icon3 img {
+    padding-top: 40px;
+  }
+  .reversetablet {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .highlighted {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  .highlighted__header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px 32px 100px 20px;
+  }
+  .highlighted__get {
+    width: 50%;
+  }
+  .highlighted__get b {
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+  }
+  .highlighted__img {
+    width: 50%;
+  }
+  .highlighted__img img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .Metricss {
+    width: 100%;
+  }
+  .Metricss__box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .Metricss .Metrics {
+    width: 100%;
+  }
+  .Metricss .Metrics__box {
+    display: none;
+  }
+  .Metricss .Metrics__text {
+    padding: 100px 32px 40px 32px;
+  }
+  .Metricss .Metrics__text1 {
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+  }
+  .Metricss .Metrics__text2 {
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+  }
+  .Metricss .Metrics__boxy {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 32px 100px 32px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .Metricss .Metrics__box1, .Metricss .Metrics__box3, .Metricss .Metrics__box4 {
+    border: 0px 0px 4px 0px;
+    border-radius: 20px 20px 0px 0px;
+    background: #FFFFFF;
+    border-bottom: 4px solid #F2BFAF;
+    text-align: center;
+    padding: 48px 16px 48px 16px;
+  }
+  .Metricss .Metrics__box2 {
+    border: 0px 0px 4px 0px;
+    border-radius: 20px 20px 0px 0px;
+    background: #FFFFFF;
+    border-bottom: 4px solid #F2BFAF;
+    text-align: center;
+    padding: 48px 16px 48px 16px;
+  }
+  .information__box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .information__box1, .information__box2, .information__box3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .information__content {
+    text-align: start;
+  }
+  .information__boxb {
+    text-align: start;
+  }
+  .Pricing__text1 {
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+  }
+  .Pricing__text2 {
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+  }
+  .Pricing__boxx {
+    width: 100%;
+  }
+  .Pricing__box {
+    padding-left: 55px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .Team {
+    justify-content: center;
+  }
+  .Team__boxxx {
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+  }
+  .Team__box {
+    width: 100%;
+  }
+  .Team__box1, .Team__box2, .Team__box3 {
+    width: 33%;
+  }
+  .Team__imgg {
+    width: 100%;
+  }
+  .Desktop {
+    width: 100%;
+  }
+  .Desktop__box {
+    width: 53%;
+  }
+  .Desktop__text {
+    width: 100%;
+  }
+  .Desktop__img {
+    width: 47%;
+  }
+  .Desktop__img img {
+    width: 100%;
+  }
+  .Contactform {
+    width: 100%;
+  }
+  .Contactform__info {
+    display: flex;
+    flex-direction: column;
+  }
+}
