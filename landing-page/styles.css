@@ -9,7 +9,6 @@ html {
   background-color: #F8F9FF;
 }
 
-/* Block */
 .navbar {
   background-color: #F8F9FF;
   color: black;
@@ -56,7 +55,7 @@ html {
   background: #F8F9FF;
   display: flex;
   justify-content: space-between;
-  padding: 120px 50px;
+  padding: 0px 55px;
 }
 .hero__handi {
   display: flex;
@@ -209,7 +208,6 @@ html {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 120px 55px 60px 55px;
 }
 .Metrics__text1 {
   font-size: 38px;
@@ -218,13 +216,12 @@ html {
 .Metrics__text2 {
   font-size: 16px;
   text-align: center;
+  padding-bottom: 60px;
 }
 .Metrics__box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 0px 55px 120px 55px;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  gap: 30px;
 }
 .Metrics__box1, .Metrics__box2, .Metrics__box3, .Metrics__box4 {
   border: 0px 0px 4px 0px;
@@ -247,17 +244,19 @@ html {
   background-color: #F8F9FF;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 0px 32px;
 }
 .highlighted__header {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding: 188px 55px 188px 0px;
 }
 .highlighted__handb {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  gap: 20px;
 }
 .highlighted__get {
   font-size: 50px;
@@ -274,9 +273,6 @@ html {
   background: #009379;
   text-align: center;
   padding: 18px 0px;
-}
-.highlighted__img img {
-  padding: 120px 60px;
 }
 
 .information {
@@ -350,6 +346,7 @@ html {
 
 .Pricing {
   background-color: #F8F9FF;
+  padding: 0px 32px;
 }
 .Pricing__text {
   display: flex;
@@ -450,13 +447,14 @@ html {
   background-color: #F8F9FF;
   display: grid;
   grid-template-columns: auto;
+  padding: 0px 50px;
 }
 .Team__text {
   text-align: center;
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
-  padding: 120px 55px 60px 55px;
+  gap: 20px;
+  padding: 100px 0px 40px 0px;
 }
 .Team__boxx {
   padding: 60px 55px 120px 55px;
@@ -466,8 +464,7 @@ html {
   justify-content: center;
   text-align: center;
   background-color: #F8F9FF;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  gap: 30px;
 }
 .Team__box1, .Team__box2, .Team__box3 {
   display: flex;
@@ -502,19 +499,18 @@ html {
   background-color: #F8F9FF;
   display: flex;
   justify-content: center;
-  padding: 60px 0px;
+  padding: 60px 55px;
 }
 .Desktop__box {
   background-color: #F2BFAF;
   border: 0px solid;
   border-radius: 20px 0px 0px 20px;
-}
-.Desktop__textt {
-  padding: 60px 60px 40px 60px;
+  padding: 60px;
 }
 .Desktop__text {
   display: flex;
   flex-direction: column;
+  gap: 40px;
 }
 .Desktop__text1 {
   font-size: 50px;
@@ -531,6 +527,8 @@ html {
   text-align: center;
   color: #FFFFFF;
   font-size: 16px;
+}
+.Desktop__button p {
   padding: 18px 50px 18px 50px;
 }
 .Desktop__img {
@@ -547,22 +545,20 @@ html {
   border: 1px solid #E5F4F2;
   border-radius: 20px;
   background-color: #FFFFFF;
+  padding: 60px;
 }
 .Contactform__text {
   display: flex;
   flex-direction: column;
-  padding: 60px;
+  padding-bottom: 60px;
 }
 .Contactform__info {
   display: flex;
   justify-content: space-between;
-  padding: 40px;
 }
 .Contactform__infox {
   display: flex;
   flex-direction: column;
-  padding: 0px 0px 60px 60px;
-  width: 465px;
 }
 .Contactform__info1 {
   display: flex;
@@ -583,8 +579,7 @@ html {
 }
 .Contactform__icon {
   display: flex;
-  justify-content: space-between;
-  padding-right: 289px;
+  gap: 16px;
 }
 .Contactform__infoy {
   display: flex;

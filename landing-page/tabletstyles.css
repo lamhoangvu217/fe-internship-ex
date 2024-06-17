@@ -1,6 +1,6 @@
-@media screen and (max-width: 1299px) {
-  html {
-    width: 100%;
+@media screen and (max-width: 1279px) {
+  body {
+    padding: 0px 18px;
   }
   .navbar__menu-btn-1 {
     display: none;
@@ -18,13 +18,16 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 0px 32px;
   }
   .hero__handi {
-    padding: 100px 32px 40px 32px;
+    padding: 100px 0px 40px 0px;
   }
   .hero__button {
     display: flex;
     justify-content: center;
+    font-size: 21px;
+    font-family: "Mulish", sans-serif;
   }
   .hero__button2 {
     display: none;
@@ -67,46 +70,33 @@
     flex-direction: column-reverse;
   }
   .highlighted {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-  }
-  .highlighted__header {
-    width: 100%;
     display: flex;
-    justify-content: center;
-    padding: 100px 32px 100px 20px;
+    justify-content: space-between;
+    gap: 20px;
   }
-  .highlighted__get {
-    width: 50%;
-  }
-  .highlighted__get b {
+  .highlighted__get p {
     font-size: 38px;
     font-family: "Poppins", sans-serif;
   }
-  .highlighted__img {
-    width: 50%;
+  .highlighted__break {
+    font-size: 16px;
   }
   .highlighted__img img {
     width: 100%;
-    display: flex;
-    justify-content: center;
   }
   .Metricss {
-    width: 100%;
+    padding: 0px 32px;
   }
   .Metricss__box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-  }
-  .Metricss .Metrics {
-    width: 100%;
   }
   .Metricss .Metrics__box {
     display: none;
   }
   .Metricss .Metrics__text {
     padding: 100px 32px 40px 32px;
+    font-family: "Mulish", sans-serif;
   }
   .Metricss .Metrics__text1 {
     font-size: 38px;
@@ -117,12 +107,9 @@
     font-family: "Mulish", sans-serif;
   }
   .Metricss .Metrics__boxy {
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 40px 32px 100px 32px;
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    gap: 20px;
   }
   .Metricss .Metrics__box1, .Metricss .Metrics__box3, .Metricss .Metrics__box4 {
     border: 0px 0px 4px 0px;
@@ -167,7 +154,6 @@
     width: 100%;
   }
   .Pricing__box {
-    padding-left: 55px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -175,10 +161,9 @@
   }
   .Team {
     justify-content: center;
+    padding: 0px 32px;
   }
   .Team__boxxx {
-    display: flex;
-    justify-content: center;
     min-width: 100%;
   }
   .Team__box {
@@ -191,25 +176,36 @@
     width: 100%;
   }
   .Desktop {
-    width: 100%;
+    display: flex;
   }
-  .Desktop__box {
-    width: 53%;
+  .Desktop__text1 {
+    font-size: 38px;
   }
-  .Desktop__text {
-    width: 100%;
+  .Desktop__text2 {
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
   }
-  .Desktop__img {
-    width: 47%;
+  .Desktop__button p {
+    padding: 18px 50px;
   }
   .Desktop__img img {
     width: 100%;
+    height: 100%;
   }
   .Contactform {
-    width: 100%;
+    padding: 50px 32px;
+  }
+  .Contactform__header {
+    padding: 40px;
   }
   .Contactform__info {
     display: flex;
     flex-direction: column;
+  }
+  .Contactform__info2 {
+    padding-bottom: 40px;
+  }
+  .Contactform__text {
+    row-gap: 10px;
   }
 }

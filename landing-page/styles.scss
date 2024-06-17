@@ -11,79 +11,7 @@ html{
   font-family: "Poppins", sans-serif;
   background-color: #F8F9FF;
 }
-/* Block */
-// .navbar {
-//   background-color: $background-color;
-//   color: $text-color;
-//   padding: 20px 50px 20px 50px;
-//   // width: 1280px;
-//   // height: 100px;
-  
-//   &__space {
-//     display: flex;
-//     justify-content: space-between;
-//   }
-//   /* Element */
-//   &__menu {
-//     list-style: none;
-//     padding: 0;
-//     margin: 0;
-//     display: flex;
-//     justify-content: space-between;
-//   }
 
-//   &__logo {
-//     border: 0px solid;
-//     padding: 16px 50px 16px 50px;
-//     width: 141px;
-//     height: 27px;
-//     text-align: center;
-//     size: 21px;
-//     display: flex;
-//     justify-content: space-between;
-//     gap: 6px;
-//   }
-
-//   &__contact {
-//     border: 0px solid;
-//     padding: 16px 50px 16px 50px;
-//     background: none;
-//     color: #009379;
-//     width: 202px;
-//     height: 60px;
-//     text-align: start;
-//     font-size: 16px;
-//   }
-
-//   &__handg {
-//     width: 443px;
-//     display: flex;
-//     justify-content: space-between;
-//   }
-
-//   &__home {
-//     border: 0px solid;
-//     padding: 16px 50px 16px 50px;
-//     border-radius: 20px;
-//     background: #E5F4F2;
-//     color: #009379;
-//     width: 202px;
-//     height: 60px;
-//   }
-
-//   &__get {
-//     border: 0px solid;
-//     padding: 16px 50px 16px 50px;
-//     border-radius: 20px;
-//     background: #009379;
-//     color: #E5F4F2;
-//     width: 202px;
-//     height: 60px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//   }
-// }
 .navbar {
   background-color: $background-color;
   color: $text-color;
@@ -129,53 +57,11 @@ html{
   }
 }
 
-
-// .navbar {
-//   background-color: $background-color;
-//   color: $text-color;
-//   padding: 20px 50px;
-  
-//   &__space {
-//     display: flex;
-//     justify-content: space-between;
-//   }
-
-//   &__menu {
-//     display: flex;
-
-//     &-btn-1 {
-//       background-color: transparent;
-//       border: none;
-//       margin-right: 50px;
-//     }
-//     &-btn-2 {
-//       background-color: #E5F4F2;
-//       border: none;
-//       padding: 18px 50px;
-//       border-radius: 20px;
-//       margin-right: 20px;
-//     }
-//     &-btn-3 {
-//       background-color: #009379;
-//       border: none;
-//       display: flex;
-//       align-items: center;
-//       padding: 18px 50px;
-//       border-radius: 20px;
-//       gap: 8px;
-//       p {
-//         color: #FFFFFF;
-//       }
-//     }
-//   }
-// }
 .hero{
-  // width: 1280px;
-  // height: 690px;
   background: #F8F9FF;
   display: flex;
   justify-content: space-between;
-  padding: 120px 50px;
+  padding: 0px 55px;
   &__handi {
     display: flex;
     flex-direction: column;
@@ -350,7 +236,6 @@ h5 {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    padding: 120px 55px 60px 55px;
   }
 
   &__text1 {
@@ -361,13 +246,13 @@ h5 {
   &__text2 {
     font-size: 16px;
     text-align: center;
+    padding-bottom: 60px;
   }
 
   &__box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 0px 55px 120px 55px;
-    column-gap: 30px;
+    gap: 30px;
 
   }
 
@@ -394,18 +279,20 @@ h5 {
   background-color: #F8F9FF;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 0px 32px;
 
   &__header {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 188px 55px 188px 0px;
   }
 
   &__handb {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    gap: 20px;
   }
   &__get {
     font-size: 50px;
@@ -423,12 +310,6 @@ h5 {
     background: #009379;
     text-align: center;
     padding: 18px 0px;
-  }
-
-  &__img {
-    img {
-      padding: 120px 60px;
-    }
   }
 
 }
@@ -513,6 +394,7 @@ h5 {
 
 .Pricing{
   background-color: #F8F9FF;
+  padding: 0px 32px;
 
   &__text {
     display: flex;
@@ -627,12 +509,13 @@ h5 {
   background-color: #F8F9FF;
   display: grid;
   grid-template-columns: auto;
+  padding: 0px 50px;
   &__text {
     text-align: center;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
-    padding: 120px 55px 60px 55px;
+    gap: 20px;
+    padding: 100px 0px 40px 0px;
   }
   &__boxx {
     padding: 60px 55px 120px 55px;
@@ -642,7 +525,7 @@ h5 {
     justify-content: center;
     text-align: center;
     background-color: #F8F9FF;
-    column-gap: 30px;
+    gap: 30px;
   }
 
   &__box1, &__box2, &__box3 {
@@ -684,21 +567,19 @@ h5 {
   background-color: #F8F9FF;
   display: flex;
   justify-content: center;
-  padding: 60px 0px;
+  padding: 60px 55px;
 
   &__box{
     background-color: #F2BFAF;
     border: 0px solid;
     border-radius: 20px 0px 0px 20px;
-  }
-
-  &__textt {
-    padding: 60px 60px 40px 60px;
+    padding: 60px;
   }
 
   &__text {
     display: flex;
     flex-direction: column;
+    gap: 40px;
   }
 
   &__text1 {
@@ -718,7 +599,9 @@ h5 {
     text-align: center;
     color: #FFFFFF;
     font-size: 16px;
-    padding: 18px 50px 18px 50px;
+    p {
+      padding: 18px 50px 18px 50px;
+    }
   }
 
   &__img {
@@ -736,24 +619,22 @@ h5 {
     border: 1px solid #E5F4F2;
     border-radius: 20px;
     background-color: #FFFFFF;
+    padding: 60px;
   }
 
   &__text {
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    padding-bottom: 60px;
   }
   &__info {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
   }
   
   &__infox {
     display: flex;
     flex-direction: column;
-    padding: 0px 0px 60px 60px;
-    width: 465px;
   }
 
   &__info1 {
@@ -779,8 +660,7 @@ h5 {
 
   &__icon {
     display: flex;
-    justify-content: space-between;
-    padding-right: 289px;
+    gap: 16px;
   }
 
   &__infoy {
