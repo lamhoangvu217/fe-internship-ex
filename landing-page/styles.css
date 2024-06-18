@@ -59,6 +59,7 @@ html {
   display: flex;
   justify-content: space-between;
   padding: 120px 55px;
+  gap: 72px;
 }
 .hero__handi {
   display: flex;
@@ -68,7 +69,6 @@ html {
 .hero__header {
   display: flex;
   flex-direction: column;
-  padding-right: 72px;
 }
 .hero__create {
   font-size: 67px;
@@ -249,6 +249,9 @@ html {
   padding: 48px 16px 48px 16px;
 }
 .Metrics__boxy {
+  display: none;
+}
+.Metrics__boxyy {
   display: none;
 }
 

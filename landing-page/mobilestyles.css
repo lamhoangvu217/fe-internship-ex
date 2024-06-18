@@ -1,0 +1,159 @@
+@media screen and (max-width: 375px) {
+  .navbar__menu-btn-2 {
+    display: none;
+  }
+  .hero {
+    padding: 0x 12px;
+  }
+  .hero__handi {
+    align-items: center;
+  }
+  .hero__create {
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+  }
+  .hero__build {
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+  }
+  .hero__button1 p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+  .hero__img {
+    padding: 0px 27.5px;
+  }
+  .hero__img img {
+    width: 100%;
+  }
+  .client {
+    padding: 60px 12px;
+  }
+  .client__logo {
+    align-items: center;
+    row-gap: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .client__logo img {
+    width: 100%;
+  }
+  .features {
+    padding: 0px 12px;
+  }
+  .features__text {
+    padding: 30px 0px;
+  }
+  .features__text3 {
+    text-align: center;
+  }
+  .features__box {
+    padding: 0px;
+    row-gap: 30px;
+  }
+  .features__box1, .features__box2, .features__box3 {
+    padding: 0px 30px 30px 30px;
+  }
+  .highlighted {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 12px;
+  }
+  .highlighted__get p {
+    font-size: 28px;
+    text-align: center;
+  }
+  .highlighted__break p {
+    text-align: center;
+  }
+  .highlighted__button {
+    padding: 0px 47px;
+    display: flex;
+    justify-content: center;
+  }
+  .Metricss {
+    padding: 50px 12px;
+  }
+  .Metrics {
+    width: 100%;
+    justify-content: center;
+  }
+  .Metrics__text {
+    padding: 0px;
+  }
+  .Metrics__boxy {
+    display: none !important;
+  }
+  .Metrics__boxyy {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .information__text {
+    padding: 60px 0px;
+  }
+  .information__box {
+    padding: 0px 12px;
+  }
+  .information__boxb {
+    text-align: center;
+  }
+  .information__box1, .information__box2, .information__box3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .information__box1 p, .information__box2 p, .information__box3 p {
+    text-align: center;
+  }
+  .Pricing {
+    padding: 0px;
+  }
+  .Pricing__text {
+    padding: 60px 0px;
+  }
+  .Pricing__button1, .Pricing__button2 {
+    padding: 18px 81px;
+  }
+  .Pricing__button3 {
+    padding: 18px 67px;
+  }
+  .Team {
+    padding: 0px;
+  }
+  .Team__box {
+    display: grid;
+    grid-template-columns: repeat(1, 1, fr);
+  }
+  .Team__box1, .Team__box2, .Team__box3 {
+    width: 100%;
+  }
+  .Desktop {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .Desktop__box {
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    padding: 40px 12px;
+  }
+  .Desktop__img {
+    border-radius: 0px 0px 20px 20px;
+  }
+  .Desktop__text1 b {
+    font-size: 28px;
+  }
+  .Desktop__buttonn {
+    display: flex;
+    justify-content: center;
+  }
+  .Contactform {
+    padding: 60px 0px;
+  }
+  .Contactform__name, .Contactform__email {
+    padding: 18px 20px;
+  }
+}

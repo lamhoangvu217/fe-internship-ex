@@ -1,0 +1,216 @@
+@media screen and (max-width: 375px){
+    .navbar {
+        &__menu-btn-2 {
+            display: none;
+        }
+    }
+
+    .hero {
+        padding: 0x 12px;
+
+        &__handi {
+            align-items: center;
+        }
+
+        &__create {
+            font-size: 38px;
+            font-family: "Poppins", sans-serif;
+        }
+
+        &__build {
+            font-size: 16px;
+            font-family: "Mulish", sans-serif;
+        }
+
+        &__button1 {
+            p {
+                font-size: 16px;
+                font-family: "Poppins", sans-serif;
+            }
+        }
+
+        &__img {
+            padding: 0px 27.5px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .client {
+        padding: 60px 12px;
+
+        &__logo {
+            // display: flex;
+            // flex-wrap: wrap;
+            // justify-content: space-between;
+            align-items: center;
+            row-gap: 20px;
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .features {
+        padding: 0px 12px;
+
+        &__text {
+            padding: 30px 0px;
+        }
+
+        &__text3 {
+            text-align: center;
+        }
+        &__box {
+            padding: 0px;
+            row-gap: 30px;
+        }
+
+        &__box1, &__box2, &__box3 {
+            padding: 0px 30px 30px 30px;
+        }
+
+    }
+
+    .highlighted {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 12px;
+
+        &__get {
+            p {
+                font-size: 28px;
+                text-align: center;
+            }
+        }
+
+        &__break {
+            p {
+                text-align: center;
+            }
+        }
+
+        &__button {
+            padding: 0px 47px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .Metricss {
+        padding: 50px 12px;
+    }
+    .Metrics {
+        width: 100%;
+        justify-content: center;
+        
+        &__text {
+            padding: 0px;
+        }
+        
+        &__boxy {
+            display: none !important;
+        }
+
+        &__boxyy {
+            display: block;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+    }
+
+    .information {
+
+        &__text {
+            padding: 60px 0px;
+        }
+
+        &__box {
+            padding: 0px 12px;
+        }
+
+        &__boxb {
+            text-align: center;
+        }
+
+        &__box1, &__box2, &__box3 {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                text-align: center;
+            }
+        }
+
+    }
+
+    .Pricing {
+        padding: 0px;
+
+        &__text {
+            padding: 60px 0px;
+        }
+
+        &__button1, &__button2 {
+            padding: 18px 81px;
+        }
+
+        &__button3 {
+            padding: 18px 67px;
+        }
+    }
+
+    .Team {
+        padding: 0px;
+
+        &__box {
+            display: grid;
+            grid-template-columns: repeat(1, 1,fr);
+        }
+
+        &__box1, &__box2, &__box3 {
+            width: 100%;
+        }
+    }
+
+    .Desktop {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+
+        &__box {
+            border-radius: 20px 20px 0px 0px;
+            text-align: center;
+            padding: 40px 12px;
+        }
+
+        &__img {
+            border-radius: 0px 0px 20px 20px;
+        }
+
+        &__text1 {
+            b {
+                font-size: 28px;
+            }
+        }
+
+        &__buttonn {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .Contactform {
+        padding: 60px 0px;
+
+        &__name, &__email {
+            padding: 18px 20px;
+        }
+    }
+}

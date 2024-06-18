@@ -65,6 +65,7 @@ html{
   display: flex;
   justify-content: space-between;
   padding: 120px 55px;
+  gap: 72px;
   &__handi {
     display: flex;
     flex-direction: column;
@@ -73,7 +74,6 @@ html{
   &__header {
     display: flex;
     flex-direction: column;
-    padding-right: 72px;
   }
 
   &__create {
@@ -286,6 +286,10 @@ h5 {
   }
 
   &__boxy {
+    display: none;
+  }
+
+  &__boxyy {
     display: none;
   }
 
