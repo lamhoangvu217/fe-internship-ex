@@ -1,5 +1,5 @@
 // <--- Tablet --->
-@media screen and (max-width: 1279px){
+@media only screen and (max-width: 1279px){
     body {
         padding: 0px 18px;
     }
@@ -70,6 +70,7 @@
         }
 
         &__text3 {
+            display: block;
             font-size: 16px;
             font-family: "Mulish", sans-serif;
         }
@@ -135,7 +136,6 @@
                 display: none;
             }
             &__text {
-                padding: 100px 32px 40px 32px;
                 font-family: "Mulish", sans-serif;
             }
 
@@ -154,25 +154,28 @@
                 grid-template-columns: repeat(4, 1fr);
                 gap: 20px;
             
-              }
+            }
             
-              &__box1, &__box3, &__box4 {
-                border: 0px 0px 4px 0px;
-                border-radius: 20px 20px 0px 0px;
-                background: #FFFFFF;
-                border-bottom: 4px solid #F2BFAF;
-                text-align: center;
-                padding: 48px 16px 48px 16px;
-              }
+            &__textboxy {
+                font-size: 28px;
+            }
+            &__box1, &__box3, &__box4 {
+            border: 0px 0px 4px 0px;
+            border-radius: 20px 20px 0px 0px;
+            background: #FFFFFF;
+            border-bottom: 4px solid #F2BFAF;
+            text-align: center;
+            padding: 48px 16px 48px 16px;
+            }
 
-              &__box2 {
-                border: 0px 0px 4px 0px;
-                border-radius: 20px 20px 0px 0px;
-                background: #FFFFFF;
-                border-bottom: 4px solid #F2BFAF;
-                text-align: center;
-                padding:  48px 16px 48px 16px;
-              }
+            &__box2 {
+            border: 0px 0px 4px 0px;
+            border-radius: 20px 20px 0px 0px;
+            background: #FFFFFF;
+            border-bottom: 4px solid #F2BFAF;
+            text-align: center;
+            padding:  48px 16px 48px 16px;
+            }
         }
     }
 

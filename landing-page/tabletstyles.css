@@ -1,4 +1,4 @@
-@media screen and (max-width: 1279px) {
+@media only screen and (max-width: 1279px) {
   body {
     padding: 0px 18px;
   }
@@ -51,6 +51,7 @@
     display: none;
   }
   .features__text3 {
+    display: block;
     font-size: 16px;
     font-family: "Mulish", sans-serif;
   }
@@ -99,7 +100,6 @@
     display: none;
   }
   .Metricss .Metrics__text {
-    padding: 100px 32px 40px 32px;
     font-family: "Mulish", sans-serif;
   }
   .Metricss .Metrics__text1 {
@@ -114,6 +114,9 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+  }
+  .Metricss .Metrics__textboxy {
+    font-size: 28px;
   }
   .Metricss .Metrics__box1, .Metricss .Metrics__box3, .Metricss .Metrics__box4 {
     border: 0px 0px 4px 0px;
