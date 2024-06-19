@@ -1,7 +1,14 @@
-@media screen and (max-width: 375px){
+@media only screen and (max-width: 780px){
     .navbar {
         &__menu-btn-2 {
             display: none;
+        }
+        &__space {
+            justify-content: center;
+        }
+
+        &__logo {
+            padding: 14px 30px;
         }
     }
 
@@ -10,6 +17,7 @@
 
         &__handi {
             align-items: center;
+            padding-top: 50px;
         }
 
         &__create {
@@ -38,7 +46,7 @@
     }
 
     .client {
-        padding: 60px 12px;
+        padding: 100px 12px;
 
         &__logo {
             // display: flex;
@@ -81,7 +89,7 @@
     .highlighted {
         display: flex;
         flex-direction: column;
-        padding: 50px 12px;
+        padding: 100px 12px;
 
         &__get {
             p {
@@ -103,7 +111,7 @@
         }
     }
     .Metricss {
-        padding: 50px 12px;
+        padding: 100px 12px;
     }
     .Metrics {
         width: 100%;
@@ -154,7 +162,7 @@
         padding: 0px;
 
         &__text {
-            padding: 60px 0px;
+            padding: 100px 0px;
         }
 
         &__button1, &__button2 {
@@ -181,6 +189,7 @@
 
     .Desktop {
         padding: 0px;
+        padding-top: 50px;
         display: flex;
         flex-direction: column;
 
