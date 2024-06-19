@@ -1,0 +1,109 @@
+$bg-color: #f5f0e1;
+$border-color: #ddd;
+$hover-color: #e0e0e0;
+$active-color: #ccc;
+$primary-color: #000;
+$secondary-color: #777;
+$button-color: #333;
+$button-hover: #444;
+$button-active: #222;
+$delete-color: #f00;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: $bg-color;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    .add-list {
+        background-color: $button-color;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        &:hover {
+            background-color: $button-hover;
+        }
+        &.active {
+            background-color: $button-active;
+        }
+    }
+
+    .checkbox-example {
+        display: flex;
+        align-items: center;
+        input {
+            margin-right: 10px;
+        }
+        .delete {
+            background-color: transparent;
+            border: none;
+            color: $delete-color;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+    }
+}
+
+.form {
+    background-color: #fff;
+    border: 1px solid $border-color;
+    padding: 20px;
+    width: 300px;
+    .form-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        h3 {
+            margin: 0;
+        }
+        .delete-form {
+            background-color: transparent;
+            border: none;
+            color: $delete-color;
+            cursor: pointer;
+        }
+    }
+    .tasks {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 20px 0;
+        li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            input {
+                margin-right: 10px;
+            }
+        }
+    }
+    .add-task {
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid $border-color;
+            &:focus {
+                outline: none;
+                border-color: $primary-color;
+            }
+        }
+    }
+}

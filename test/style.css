@@ -1,55 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f0e1;
+  margin: 0;
+  padding: 20px;
 }
-.todo-container {
-    background-color: #fef5e7;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    padding: 20px;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.todo-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
-.todo-header h2 {
-    font-size: 20px;
-    margin: 0;
+.controls .add-list {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
-.todo-header .icon {
-    cursor: pointer;
+.controls .add-list:hover {
+  background-color: #444;
 }
-.todo-list {
-    list-style: none;
-    padding: 0;
-    margin-top: 10px;
+.controls .add-list.active {
+  background-color: #222;
 }
-.todo-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+.controls .checkbox-example {
+  display: flex;
+  align-items: center;
 }
-.todo-item input {
-    margin-right: 10px;
+.controls .checkbox-example input {
+  margin-right: 10px;
 }
-.todo-item .task {
-    flex-grow: 1;
+.controls .checkbox-example .delete {
+  background-color: transparent;
+  border: none;
+  color: #f00;
+  cursor: pointer;
+  margin-left: 10px;
 }
-.add-task {
-    display: flex;
-    margin-top: 10px;
+
+.form {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 300px;
 }
-.add-task input {
-    flex-grow: 1;
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+.form .form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.form .form-header h3 {
+  margin: 0;
+}
+.form .form-header .delete-form {
+  background-color: transparent;
+  border: none;
+  color: #f00;
+  cursor: pointer;
+}
+.form .tasks {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+.form .tasks li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form .tasks li input {
+  margin-right: 10px;
+}
+.form .add-task input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.form .add-task input:focus {
+  outline: none;
+  border-color: #000;
 }

@@ -3,26 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily To-Do</title>
+    <title>To-Do Interface</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="todo-container">
-        <div class="todo-header">
-            <h2>Daily To-Do</h2>
-            <span class="icon">🗑️</span>
+    <div class="container">
+        <div class="controls">
+            <button class="add-list">+ Add new List</button>
+            <button class="add-list active">+ Add new List</button>
+            <div class="checkbox-example">
+                <input type="checkbox" id="example" checked>
+                <label for="example">Stay positive</label>
+                <button class="delete">X</button>
+            </div>
         </div>
-        <ul class="todo-list">
-            <li class="todo-item"><input type="checkbox" checked><span class="task">Stay positive</span></li>
-            <li class="todo-item"><input type="checkbox"><span class="task">Deep clean floors</span></li>
-            <li class="todo-item"><input type="checkbox"><span class="task">Wash windows</span></li>
-            <li class="todo-item"><input type="checkbox"><span class="task">Sanitize high-touch areas</span></li>
-            <li class="todo-item"><input type="checkbox"><span class="task">Organize closets</span></li>
-            <li class="todo-item"><input type="checkbox"><span class="task">Stay positive</span></li>
-            <li class="todo-item"><input type="checkbox"><span class="task">Dust surfaces</span></li>
-        </ul>
-        <div class="add-task">
-            <input type="text" placeholder="+ Add a task">
+
+        <div class="form">
+            <div class="form-header">
+                <h3>Daily To-Do</h3>
+                <span>Today</span>
+                <button class="delete-form">X</button>
+            </div>
+            <ul class="tasks">
+                <li><input type="checkbox" id="task1"><label for="task1">Stay positive</label></li>
+                <li><input type="checkbox" id="task2"><label for="task2">Deep clean floors</label></li>
+                <li><input type="checkbox" id="task3"><label for="task3">Wash windows</label></li>
+                <li><input type="checkbox" id="task4"><label for="task4">Sanitize high-touch areas</label></li>
+                <li><input type="checkbox" id="task5"><label for="task5">Organize closets</label></li>
+                <li><input type="checkbox" id="task6"><label for="task6">Dust surfaces</label></li>
+            </ul>
+            <div class="add-task">
+                <input type="text" placeholder="+ Add a task">
+            </div>
         </div>
     </div>
 </body>
