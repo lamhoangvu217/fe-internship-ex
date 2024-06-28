@@ -19,8 +19,7 @@
     </style>
 </head>
 <body>
-    <script src="app.js"></script>
-
+    
     <nav class="navbar">
         <div class="navbar__busyday">
             <img src="./img/check-square.svg" alt="">
@@ -40,220 +39,210 @@
             </div>
         </div>
     </div>
-
+    
     <div class="list__button">
-        <button class="list__add"><b>+ Add new List</b></button>
+        <button class="list__add">+ Add new List</button>
     </div>
-
-<div class="listjob">
-    <div class="list">
-
-        <div class="list__dandc">
-            <div class="list__daily">
-                <h1>Daily To-Do</h1>
-                <div class="list__trash">
-                    <img src="./img/trash-2.svg" alt="">
+    
+    <div class="listjob">
+        <div class="list">
+            
+            <div class="list__dandc">
+                <div class="list__daily">
+                    <h1>Daily To-Do</h1>
+                    <div class="list__trash">
+                        <img src="./img/trash-2.svg" alt="">
+                    </div>
+                    <div class="list__daily-today">
+                        <img src="./img/calendar.svg" alt=""> 
+                        <p>Today</p> 
+                    </div>
                 </div>
-                <div class="list__daily-today">
-                    <img src="./img/calendar.svg" alt=""> 
-                    <p>Today</p> 
+        
+                <div class="list__check">
+                    <label class="list__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Stay positive</span>
+                    </label>
+                    <label class="list__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Deep clean floors.</span>
+                    </label>
+                    <label class="list__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Wash windows.</span>
+                    </label>
+                    <label class="list__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Sanitize high-touch areas.</span>
+                    </label>
+                    <label class="list__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Organize closets.</span>
+                    </label>
+                    <label class="list__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Stay positive</span>
+                    </label>
+                    <label class="list__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Dust sufaces.</span>
+                    </label>
+        
+                    <div class="list__button2">
+                        <input type="text" class="list__add2" placeholder="+ Add a task">
+                    </div>
                 </div>
             </div>
-    
-            <div class="list__check">
-                <label class="list__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Stay positive</span>
-                </label>
-                <label class="list__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Deep clean floors.</span>
-                </label>
-                <label class="list__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Wash windows.</span>
-                </label>
-                <label class="list__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Sanitize high-touch areas.</span>
-                </label>
-                <label class="list__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Organize closets.</span>
-                </label>
-                <label class="list__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Stay positive</span>
-                </label>
-                <label class="list__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Dust sufaces.</span>
-                </label>
-    
-                <div class="list__button2">
-                    <button class="list__add2">+ Add a task</button>
+        </div>
+
+        <div class="listwtd">
+            <div class="listwtd__wandc">
+                <div class="listwtd__work">
+                    <h1>Work To-Do</h1>
+                    <div class="list__trash">
+                        <img src="./img/trash-2.svg" alt="">
+                    </div>
+                    <div class="listwtd__work-today">
+                        <img src="./img/calendar.svg" alt=""> 
+                        <p>Tomorrow, Feb 28</p> 
+                    </div>
+                </div>
+                
+                <div class="listwtd__check">
+                    <label class="listwtd__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Stay positive</span>
+                    </label>
+                    <label class="listwtd__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Deep clean floors.</span>
+                    </label>
+                    <label class="listwtd__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Wash windows.</span>
+                    </label>
+                    <label class="listwtd__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Sanitize high-touch areas.</span>
+                    </label>
+                    <label class="listwtd__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Dust sufaces.</span>
+                    </label>
+        
+                    <div class="listwtd__button3">
+                        <input type="text" class="listwtd__add3" placeholder="+ Add a task">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="listwo">
+            <div class="listwo__woandc">
+                <div class="listwo__workout">
+                    <h1>Workout List</h1>
+                    <div class="list__trash">
+                        <img src="./img/trash-2.svg" alt="">
+                    </div>
+                    <div class="listwo__wo-today">
+                        <img src="./img/calendar.svg" alt=""> 
+                        <p>Feb 29</p> 
+                    </div>
+                </div>
+                
+                <div class="listwo__check">
+                    <label class="listwo__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Stay positive</span>
+                    </label>
+                    <label class="listwo__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Deep clean floors.</span>
+                    </label>
+                    <label class="listwo__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Wash windows.</span>
+                    </label>
+                    <label class="listwo__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Sanitize high-touch areas.</span>
+                    </label>
+                    <label class="listwo__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Organize closets.</span>
+                    </label>
+                    <label class="listwo__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Stay positive</span>
+                    </label>
+                    <label class="listwo__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Dust sufaces.</span>
+                    </label>
+                    
+                    <div class="listwo__button4">
+                        <input type="text" class="listwo__add4" placeholder="+ Add a task">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="listsl">
+            <div class="listsl__slandc">
+                <div class="listsl__self">
+                    <h1>Daily To-Do</h1>
+                    <div class="list__trash">
+                        <img src="./img/trash-2.svg" alt="">
+                    </div>
+                    <div class="listsl__self-today">
+                        <img src="./img/calendar.svg" alt=""> 
+                        <p>Today</p> 
+                    </div>
+                </div>
+                
+                <div class="listsl__check">
+                    <label class="listsl__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Stay positive</span>
+                    </label>
+                    <label class="listsl__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Deep clean floors.</span>
+                    </label>
+                    <label class="listsl__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Wash windows.</span>
+                    </label>
+                    <label class="listsl__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Sanitize high-touch areas.</span>
+                    </label>
+                    <label class="listsl__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Organize closets.</span>
+                    </label>
+                    <label class="listsl__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Stay positive</span>
+                    </label>
+                    <label class="listsl__checkbox">
+                        <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
+                        <span class="text">Dust sufaces.</span>
+                    </label>
+                    
+                    <div class="listsl__button5">
+                        <input type="text" class="listsl__add5" placeholder="+ Add a task">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="listwtd">
-        <div class="listwtd__wandc">
-            <div class="listwtd__work">
-                <h1>Work To-Do</h1>
-                <div class="listwtd__trash">
-                    <img src="./img/trash-2.svg" alt="">
-                </div>
-                <div class="listwtd__work-today">
-                    <img src="./img/calendar.svg" alt=""> 
-                    <p>Tomorrow, Feb 28</p> 
-                </div>
-            </div>
     
-            <div class="listwtd__check">
-                <label class="listwtd__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Stay positive</span>
-                </label>
-                <label class="listwtd__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Deep clean floors.</span>
-                </label>
-                <label class="listwtd__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Wash windows.</span>
-                </label>
-                <label class="listwtd__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Sanitize high-touch areas.</span>
-                </label>
-                <label class="listwtd__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Dust sufaces.</span>
-                </label>
-    
-                <div class="listwtd__button3">
-                    <button class="listwtd__add3">+ Add a task</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="listwo">
-        <div class="listwo__woandc">
-            <div class="listwo__workout">
-                <h1>Workout List</h1>
-                <div class="listwo__trash">
-                    <img src="./img/trash-2.svg" alt="">
-                </div>
-                <div class="listwo__wo-today">
-                    <img src="./img/calendar.svg" alt=""> 
-                    <p>Feb 29</p> 
-                </div>
-            </div>
-    
-            <div class="listwo__check">
-                <label class="listwo__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Stay positive</span>
-                </label>
-                <label class="listwo__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Deep clean floors.</span>
-                </label>
-                <label class="listwo__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Wash windows.</span>
-                </label>
-                <label class="listwo__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Sanitize high-touch areas.</span>
-                </label>
-                <label class="listwo__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Organize closets.</span>
-                </label>
-                <label class="listwo__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Stay positive</span>
-                </label>
-                <label class="listwo__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Dust sufaces.</span>
-                </label>
-    
-                <div class="listwo__button4">
-                    <button class="listwo__add4">+ Add a task</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="listsl">
-        <div class="listsl__slandc">
-            <div class="listsl__self">
-                <h1>Daily To-Do</h1>
-                <div class="listsl__trash">
-                    <img src="./img/trash-2.svg" alt="">
-                </div>
-                <div class="listsl__self-today">
-                    <img src="./img/calendar.svg" alt=""> 
-                    <p>Today</p> 
-                </div>
-            </div>
-    
-            <div class="listsl__check">
-                <label class="listsl__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Stay positive</span>
-                </label>
-                <label class="listsl__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Deep clean floors.</span>
-                </label>
-                <label class="listsl__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Wash windows.</span>
-                </label>
-                <label class="listsl__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Sanitize high-touch areas.</span>
-                </label>
-                <label class="listsl__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Organize closets.</span>
-                </label>
-                <label class="listsl__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Stay positive</span>
-                </label>
-                <label class="listsl__checkbox">
-                    <input type="checkbox" id="checkbox" onclick="toggleStrikethrough(this)">
-                    <span class="text">Dust sufaces.</span>
-                </label>
-    
-                <div class="listsl__button5">
-                    <button class="listsl__add5">+ Add a task</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-    <script>
-        function toggleStrikethrough(checkbox) {
-            var text = checkbox.nextElementSibling;
-
-            if (checkbox.checked) {
-                text.classList.add("strikethrough");
-            } else {
-                text.classList.remove("strikethrough");
-            }
-        }
-    </script>
 
     <div class="end">
         <p>© 2024 Busy Day by ScriptedSprouts</p>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
