@@ -80,6 +80,10 @@ html {
     padding: 10px 0px 10px 20px;
     margin-bottom: 20px;
     font-family: "Figtree", sans-serif;
+    position: relative;
+    border: none;
+    outline: none;
+    z-index: 0;
 
     @media screen and (min-width: 800px) {
         width: 30%;
@@ -411,23 +415,25 @@ input[type="checkbox"]:checked::before{
 
 .object-div {
     padding: 22px 20px;
-    margin: 0px 20px 20px 20px;
+    margin: 20px;
     background-color: #FFF6E7;
     border: 1px solid black;
     border-radius: 8px;
     display: none;
+    @media screen and (min-width: 800px){
+        margin-top: 0px;
+    }
 
 }
 .input__add {
     border: none;
-        background: #FFFFFF;
-        width: 100%;
-        color: #525252;
-        font-size: 14px;
-        text-align: start;
-        padding: 6px 0px 6px 6px;
+    background-color: #FFFFFF;
+    width: 100%;
+    color: #525252;
+    font-size: 14px;
+    text-align: start;
+    padding: 6px 0px 6px 6px;
 }
-
 h3 {
     font-size: 20px;
 }
@@ -459,7 +465,25 @@ li {
     justify-content: space-between;
 }
 
+.input__title {
+    border: none;
+    background-color: #FFFFFF;
+    color: #525252;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .list__trash {
+    border: none;
+    background-color: transparent;
+}
+
+.list__trashh {
     border: none;
     background-color: transparent;
 }
@@ -468,4 +492,39 @@ li {
     display: flex;
     gap: 8px;
     margin-bottom: 16px;
+}
+
+#birthday {
+    border: none;
+    background-color: #FFF6E7;
+    color: #525252;
+    font-size: 14px;
+    font-family: "Figtree", sans-serif;
+    padding: 8px;
+    padding-right: 30px;
+    position: relative;
+    z-index: 1;
+}
+#birthday:before {
+    position: absolute;
+    pointer-events: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0; 
+    z-index: 2;
+}
+
+.list__add:hover {
+    background: linear-gradient(to right, #e0ffe0, #ffe0e0);
+    color: #000000;
+}
+
+.linear:hover .input__add {
+    border: 2px solid;
+    background: linear-gradient(to right, #e0ffe0, #ffe0e0);
+    border-color: #FFF6E7
 }
