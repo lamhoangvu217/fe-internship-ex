@@ -15,20 +15,18 @@ function saveTasksToLocalStorage() {
         });
 
         const dateInput = taskList.querySelector('input[type="date"]').value;
-        const titleInput = taskList.querySelector('.input__title').value.trim();
+        const titleInput = taskList.querySelector('.title').textContent.trim();
 
         tasks.push({ taskListItems, dateInput, titleInput });
     });
 
     localStorage.setItem('tasks', JSON.stringify(tasks));
-
 }
 
-
-// Load lại các div và task từ LocalStorage //
+// Load lại các div và task từ LocalStorage
 function loadTasksFromLocalStorage() {
     const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
-
+    
     tasks.forEach((taskData, index) => {
         const newDiv = document.createElement('div');
         newDiv.classList.add('object-div');
@@ -120,23 +118,35 @@ function loadTasksFromLocalStorage() {
         const dateInput = newDiv.querySelector('input[type="date"]');
         dateInput.addEventListener('change', saveTasksToLocalStorage);
 
-        const titleInput = newDiv.querySelector('.input__title');
-        titleInput.addEventListener('input', function() {
-            taskData.titleInput = titleInput.value;
-            saveTasksToLocalStorage();
-        });
+        const titleSpan = newDiv.querySelector('.title');
+        titleSpan.addEventListener('click', function() {
+            const titleInput = document.createElement('input');
+            titleInput.type = 'text';
+            titleInput.classList.add('input__title');
+            titleInput.value = titleSpan.textContent.trim();
+            titleSpan.replaceWith(titleInput);
 
-        titleInput.addEventListener('keydown', function(event) {
-            if (event.key === 'Enter') {
-                event.preventDefault();
-                taskData.titleInput = titleInput.value.trim();
-                saveTasksToLocalStorage();
-                titleInput.blur();
-            }
+            titleInput.addEventListener('keydown', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault();
+                    const newTitle = titleInput.value.trim();
+                    const newTitleSpan = document.createElement('span');
+                    newTitleSpan.classList.add('title');
+                    newTitleSpan.textContent = newTitle;
+                    titleInput.replaceWith(newTitleSpan);
+                    saveTasksToLocalStorage();
+
+                    newTitleSpan.addEventListener('click', function() {
+                        newTitleSpan.replaceWith(titleInput);
+                        titleInput.value = newTitle;
+                    });
+                }
+            });
         });
     });
 }
 
+// Gạch ngang các task
 function toggleStrikethrough(checkbox) {
     var text = checkbox.nextElementSibling;
 
@@ -147,8 +157,11 @@ function toggleStrikethrough(checkbox) {
     }
 }
 
+// Add new Div
 const addDiv = document.querySelector('.list__add');
 addDiv.addEventListener('click', function() {
+    let idCounter = document.querySelectorAll('.object-div').length + 1;
+
     const object = `
         <form action="" class="form__action">
             <div class="linear">
@@ -157,7 +170,6 @@ addDiv.addEventListener('click', function() {
             <button class="button__add" type="submit"></button>
         </form>
     `;
-    let idCounter = document.querySelectorAll('.object-div').length + 1;
 
     const newObject = { 
         titleInput: '', 
@@ -193,6 +205,23 @@ addDiv.addEventListener('click', function() {
     outputDiv.appendChild(newDiv);
     newDiv.style.display = 'block';
 
+    titleInput.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            const newTitle = titleInput.value.trim();
+            const titleSpan = document.createElement('span');
+            titleSpan.classList.add('title');
+            titleSpan.textContent = newTitle;
+            titleInput.replaceWith(titleSpan);
+            saveTasksToLocalStorage();
+
+            titleSpan.addEventListener('click', function() {
+                titleSpan.replaceWith(titleInput);
+                titleInput.value = newTitle;
+            });
+        }
+    });
+
     const taskList = newDiv.querySelector('.list__task');
 
     form.addEventListener('submit', function(event) {
@@ -227,23 +256,6 @@ addDiv.addEventListener('click', function() {
     const dateInput = newDiv.querySelector('input[type="date"]');
     dateInput.addEventListener('change', saveTasksToLocalStorage);
 
-    titleInput.addEventListener('input', function(event) {
-        newObject.titleInput = titleInput.value;
-        saveTasksToLocalStorage();
-    });
-
-    titleInput.addEventListener('keydown', function(event) {
-        if (event.key === 'Enter') {
-            event.preventDefault();
-            newObject.titleInput = titleInput.value.trim();
-            const titleSpan = document.createElement('span');
-            titleSpan.classList.add('title');
-            titleSpan.textContent = newObject.titleInput;
-            titleInput.replaceWith(titleSpan);
-            saveTasksToLocalStorage();
-            titleInput.blur();
-        }
-    });
 });
 
 document.addEventListener('DOMContentLoaded', function() {
